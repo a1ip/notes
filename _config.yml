@@ -1,15 +1,15 @@
-baseurl: "/notes" # the subpath of your site, e.g. /blog
+baseurl: /notes # the subpath of your site, e.g. /blog
 url: https://rigovanov.ru # the base hostname & protocol for your site
 domain: rigovanov.ru
 permalink: /:title
-email: phil@rigovanov.ru
-author: Филипп Юрьевич Ригованов
+# email: phil@rigovanov.ru
+# author: Филипп Юрьевич Ригованов
 
 title: Заметки
 longtitle: Слаще мёда и капель сота
-# author:
-#   name: a1ip #"Филипп Юрьевич Ригованов"
-#   email: "phil@rigovanov.ru"
+author:
+  name: Филипп Юрьевич Ригованов # a1ip
+  email: phil@rigovanov.ru
 description: > # this means to ignore newlines until "show_excerpts:"
   Мои заметки
   при чтении
@@ -19,7 +19,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
-  skin: "dark"
+  skin: dark
   date_format: "%d/%m/%y" #"%D" #"%b %-d, %Y"
 
   # generate social links in footer
