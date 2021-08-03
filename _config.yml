@@ -1,7 +1,7 @@
 title: Слаще мёда и капель сота
 author:
-  name: Филипп Юрьевич Ригованов
-  email: phil@rigovanov.ru
+  name: "Филипп Юрьевич Ригованов"
+  email: "phil@rigovanov.ru"
 description: > # this means to ignore newlines until "show_excerpts:"
   Мои заметки
   при чтении
@@ -11,6 +11,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
+  skin: dark
   date_format: "%D" #"%b %-d, %Y"
 
   # generate social links in footer
