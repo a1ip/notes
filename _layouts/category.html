@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="home">
+    <h1 class="category-title">
+      {{- page.category_name -}}
+    </h1>
+    <div class="posts">
+      {%- for post in site.categories[page.category_name] %}
+        <div class="post">
+          <p class="post-meta">
+        {%- if site.date_format %}
+            {{ post.date | date: site.date_format }}
+        {%- else %}
+            {{ post.date | date: "%d/%m/%y" }}
+        {%- endif %}
+        </p>
+          <a href="{{ post.url | relative_url }}" class="post-link">
+            <h3 class="post-title">
+              {{ post.title }}
+            </h3>
+          </a>
+        </div>
+      {%- endfor %}
+    </div>
+</div>
