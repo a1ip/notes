@@ -15,11 +15,11 @@ layout: default
             {{ post.date | date: "%d/%m/%y" }}
         {%- endif %}
         </p>
-          <a href="{{ post.url | relative_url }}" class="post-link">
-            <h3 class="post-title">
+          <h3>
+            <a href="{{ post.url | relative_url }}" class="post-link">
               {{ post.title }}
-            </h3>
-          </a>
+            </a>
+          </h3>
         </div>
       {%- endfor %}
     </div>
