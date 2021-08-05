@@ -12,8 +12,8 @@ permalink: "/books"
       {%- for category in site.categories %}
         <div class="post">
           <h3>
-            <a href="{{ category | prepend: "/" | relative_url }}" class="post-link">
-              {{ category }}
+            <a href="{{ category[0] | prepend: "/" | relative_url }}" class="post-link">
+              {{ category[0] }}
             </a>
           </h3>
         </div>
