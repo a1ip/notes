@@ -6,13 +6,13 @@ permalink: "/books"
 ---
 <div class="home">
     <h1>
-      
+      {{- page.title -}}
     </h1>
     <div class="posts">
       {%- for category in site.categories %}
         <div class="post">
           <h3>
-            <a href="{{ category | prepend "/" | relative_url }}" class="post-link">
+            <a href="{{ category | prepend: "/" | relative_url }}" class="post-link">
               {{ category }}
             </a>
           </h3>
