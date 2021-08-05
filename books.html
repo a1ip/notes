@@ -10,7 +10,7 @@ permalink: "/books"
     </h1>
     <div class="posts">
       {%- for category in site.categories %}
-        {%- if category[0] != "ВЗ" and category[0] != " НЗ" %}
+        {%- if category[0] != "ВЗ" and category[0] != "НЗ" %}
         <div class="post">
           <h3>
             <a href="{{ category[0] | prepend: "/" | relative_url }}" class="post-link">
