@@ -20,5 +20,14 @@ permalink: "/books"
         </div>
         {%- endif %}
       {%- endfor %}
+      <hr>
+      {%- for category in site.categories %}
+        <div class="post">
+          <h3>
+              {%- for catentity in category %} {{ catentity }} {% unless forloop.last %}&nbsp;{% endunless %} {%- endfor %}
+          </h3>
+        </div>
+        {%- endif %}
+      {%- endfor %}
     </div>
 </div>
