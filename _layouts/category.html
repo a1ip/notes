@@ -10,14 +10,14 @@ layout: default
         <div class="post">
           <p class="post-meta">
         {%- if site.date_format %}
-            {{ post.date | date: site.date_format }}
+            {{- post.date | date: site.date_format -}}
         {%- else %}
-            {{ post.date | date: "%d/%m/%y" }}
+            {{- post.date | date: "%d/%m/%y" -}}
         {%- endif %}
         </p>
           <h3>
             <a href="{{ post.url | relative_url }}" class="post-link">
-              {{ post.title }}
+              {{- post.title -}}
             </a>
           </h3>
         </div>
