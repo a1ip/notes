@@ -1,4 +1,4 @@
-baseurl: /notes # the subpath of your site, e.g. /blog
+baseurl: / #/notes # the subpath of your site, e.g. /blog
 url: https://notes.rigovanov.ru # the base hostname & protocol for your site
 domain: notes.rigovanov.ru
 permalink: /:categories/:title
