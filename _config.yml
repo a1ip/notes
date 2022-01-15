@@ -1,6 +1,6 @@
 baseurl: /notes # the subpath of your site, e.g. /blog
-url: https://rigovanov.ru # the base hostname & protocol for your site
-domain: rigovanov.ru
+url: https://notes.rigovanov.ru # the base hostname & protocol for your site
+domain: notes.rigovanov.ru
 permalink: /:categories/:title
 lang: ru
 # email: phil@rigovanov.ru
