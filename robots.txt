@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+Host: notes.rigovanov.ru
+
+Sitemap: https://notes.rigovanov.ru/sitemap.xml
