@@ -1,4 +1,5 @@
 ---
 layout: home
-title: "Свежие"
+title: Свежие
+description: Список самых свежих записок
 ---
