@@ -36,22 +36,26 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: phil_rigovanov
-    github: a1ip
-    # devto: jekyll
-    # dribbble: jekyll
-    facebook: rigovanov
-    # flickr:   jekyll
-    instagram: a1ip
-    linkedin: rigovanov
-    pinterest: philrigovanov
-    # youtube: jekyll
+    - { platform: github,         user_url: "https://github.com/a1ip" }
+    - { platform: twitter,        user_url: "https://twitter.com/phil_rigovanov" }
+    - { platform: facebook,       user_url: "https://facebook.com/rigovanov" }
+    - { platform: instagram,      user_url: "https://www.instagram.com/a1ip" }
+    - { platform: keybase,        user_url: "https://keybase.io/a1ip" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/rigovanov" }
+    # - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
+    - { platform: pinterest,      user_url: "https://www.pinterest.com/philrigovanov" }
+    # - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
+    - { platform: telegram,       user_url: "https://t.me/rigovanov" }
+    - { platform: youtube,        user_url: "https://www.youtube.com/philrigovanov" }
+    - { platform: devto,          user_url: "https://dev.to/a1ip" }
+    - { platform: dribbble,       user_url: "https://dribbble.com/a1ip" }
+    - { platform: flickr,         user_url: "https://www.flickr.com/photos/a1ip" }
+    # - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    youtube_channel_name: philipperigovanov
-    telegram: rigovanov
+    # youtube_channel_name: philipperigovanov
+ 
     # googleplus: +jekyll
     # microdotblog: jekyll
-    # keybase: jekyll
 
     # Mastodon instances
     # mastodon:
