@@ -12,7 +12,8 @@ author:
   name: Филипп Юрьевич Ригованов # a1ip
   email: phil@rigovanov.ru
 description: > # this means to ignore newlines until "show_excerpts:"
-  Мои заметки при чтении Библии.
+  Мои заметки при чтении Библии.  
+  Я пользуюсь [этим планом чтения всей Библии](https://novchurch.github.io/today/plan) за год.
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # disqus:
