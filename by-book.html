@@ -15,7 +15,7 @@ permalink: "/by-book"
         <div class="post">
           <h3>
             <a href="{{ category[0] | prepend: "/" | relative_url }}" class="post-link">
-              {{- category[0] -}}
+              {{- category[0] | replace: '_', '&nbsp;' -}}
             </a>
           </h3>
         </div>
