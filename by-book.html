@@ -9,7 +9,7 @@ permalink: "/by-book"
     <h1>
       {{- page.title -}}
     </h1>
-    <div class="posts">
+    <div class="posts" style="column-width:12em;">
       {%- for category in site.categories %}
         {%- if category[0] != "ВЗ" and category[0] != "НЗ" %}
         <div class="post">
