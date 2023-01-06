@@ -73,7 +73,7 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
 # - index.md
-  - by-book.html
+  - books.html
 # - about.md
 
 # Build settings
