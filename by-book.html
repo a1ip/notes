@@ -15,7 +15,7 @@ permalink: "/by-book"
         <div class="post">
           <h3>
             <a href="{{ category[0] | prepend: "/" | relative_url }}" class="post-link">
-              {{- category[0] | replace: '_', '&nbsp;' -}}
+              {{- category[0] | replace_first: '_', '&nbsp;' | replace_first: '1П', '1-я&nbsp;П' | replace_first: '1Ц', '1-я&nbsp;Ц'  | replace_first: '1Т', '1-е&nbsp;Т'  | replace_first: '1Ф', '1-е&nbsp;Ф'  | replace_first: '1И', '1-е&nbsp;И'  | replace_first: '1К', '1-е&nbsp;К' | replace_first: '2К', '2-е&nbsp;К' | replace_first: '2И', '2-е&nbsp;И' | replace_first: '2Т', '2-е&nbsp;Т' | replace_first: '2Ф', '2-е&nbsp;Ф' | replace_first: '3И', '3-е&nbsp;И' | replace_first: '2П', '2-я&nbsp;П' | replace_first: '2Ц', '2-я&nbsp;Ц' | replace_first: '3Ц', '3-я&nbsp;Ц' | replace_first: '4Ц', '4-я&nbsp;Ц' -}}
             </a>
           </h3>
         </div>
