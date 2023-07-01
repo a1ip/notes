@@ -96,4 +96,4 @@ compress_html:
   profile: false
   startings: []
   ignore:
-    envs: [local]
+    envs: []
