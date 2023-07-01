@@ -89,10 +89,11 @@ sass:
   style: compressed
 
 compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
+  clippings: []
+  comments: ["<!-- ", " -->"]
+  endings: []
   blanklines: false
+  profile: false
+  startings: []
   ignore:
     envs: [local]
