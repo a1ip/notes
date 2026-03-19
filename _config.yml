@@ -78,6 +78,9 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 nav_pages: # header_pages: 
+  - books.html
+
+header_pages: 
 # - index.md
   - books.html
 # - about.md
